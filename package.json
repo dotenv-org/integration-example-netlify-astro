@@ -1,0 +1,17 @@
+{
+  "name": "@example/minimal",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node -r dotenv-vault-core/config ./node_modules/.bin/astro dev",
+    "start": "node -r dotenv-vault-core/config ./node_modules/.bin/astro dev",
+    "build": "node -r dotenv-vault-core/config ./node_modules/.bin/astro build",
+    "preview": "node -r dotenv-vault-core/config ./node_modules/.bin/astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^1.5.0",
+    "dotenv-vault-core": "^0.3.0"
+  }
+}
